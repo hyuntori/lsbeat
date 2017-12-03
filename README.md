@@ -118,3 +118,7 @@ make package
 
 This will fetch and create all images required for the build process. The hole process to finish can take several minutes.
 # lsbeat
+참고
+```
+https://www.elastic.co/blog/build-your-own-beat
+```
