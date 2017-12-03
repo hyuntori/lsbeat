@@ -41,6 +41,16 @@
         "counter": {
           "type": "long"
         },
+        "directory": {
+          "type": "boolean"
+        },
+        "filename": {
+          "norms": false,
+          "type": "text"
+        },
+        "filesize": {
+          "type": "long"
+        },
         "meta": {
           "properties": {
             "cloud": {
@@ -72,6 +82,13 @@
               }
             }
           }
+        },
+        "modtime": {
+          "type": "date"
+        },
+        "path": {
+          "ignore_above": 1024,
+          "type": "keyword"
         },
         "tags": {
           "ignore_above": 1024,

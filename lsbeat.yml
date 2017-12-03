@@ -5,6 +5,7 @@
 lsbeat:
   # Defines how often an event is sent to the output
   period: 1s
+  path: "/home/hduser/projects/src/src/github.com/hyuntori/lsbeat"
 
 #================================ General =====================================
 
@@ -29,7 +30,7 @@ lsbeat:
 #-------------------------- Elasticsearch output ------------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["localhost:9200"]
+  hosts: ["localhost:9222"]
 
   # Optional protocol and basic auth credentials.
   #protocol: "https"

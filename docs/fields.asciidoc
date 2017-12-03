@@ -134,6 +134,29 @@ type: long
 
 required: True
 
-PLEASE UPDATE DOCUMENTATION
+PLEASE UPDATE DOCUMENTATIONi
 
+
+[float]
+=== modtime
+
+type: date
+
+[float]
+=== filename
+
+type: text
+
+[float]
+=== path
+
+[float]
+=== directory
+
+type: boolean
+
+[float]
+=== filesize
+
+type: long
 
